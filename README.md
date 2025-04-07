@@ -2,6 +2,10 @@
 
 A web application for working with Akamai v3 sensor data - encryption, decryption, and hash extraction. This tool helps developers and security researchers work with Akamai's bot detection system.
 
+## Live Demo
+
+Try the application live at: [https://akamai-v3-tools.vercel.app](https://akamai-v3-tools.vercel.app)
+
 ## Features
 
 - **Decrypt Payload**: Convert encrypted sensor data back to readable JSON format
