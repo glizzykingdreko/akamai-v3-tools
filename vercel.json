@@ -5,7 +5,9 @@
       "src": "package.json",
       "use": "@vercel/next",
       "config": {
-        "installCommand": "npm install --force"
+        "installCommand": "npm install --force",
+        "buildCommand": "next build",
+        "outputDirectory": ".next"
       }
     }
   ],
@@ -14,11 +16,5 @@
       "src": "/api/(.*)",
       "dest": "/api/$1"
     }
-  ],
-  "cache": {
-    "npm": {
-      "enabled": true,
-      "path": "node_modules"
-    }
-  }
+  ]
 } 
