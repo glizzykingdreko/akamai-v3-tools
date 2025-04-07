@@ -65,6 +65,11 @@ This project is configured for deployment on Vercel. Simply connect your GitHub 
 - [Akamai v3 Sensor Data Helper](https://github.com/glizzykingdreko/akamai-v3-sensor-data-helper) - NPM module for working with Akamai v3 sensor data
 - [Akamai v2 Decryptor](https://github.com/glizzykingdreko/akamai-v2-decryptor) - For Akamai v2 sensor data decryption
 
+## Documentation
+
+For a deep dive into how Akamai v3 sensor data works and how to use these tools effectively, check out my detailed article:
+- [Akamai v3 Sensor Data: Deep Dive into Encryption, Decryption and Bypass Tools](https://medium.com/@glizzykingdreko/akamai-v3-sensor-data-deep-dive-into-encryption-decryption-and-bypass-tools-da0adad2a784)
+
 ## License
 
 MIT

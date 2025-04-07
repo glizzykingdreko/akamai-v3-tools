@@ -9,11 +9,14 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center flex-grow w-full">
         <h1 className="mb-2 text-3xl font-bold">Akamai v3 Tools</h1>
         <p className="mb-4 text-muted-foreground">
-          Free online tools for working with Akamai v3 sensor data - encryption, decryption, and hash extraction
+          Online tools for working with Akamai v3 sensor data
+        </p>
+        <p className="mb-4 text-muted-foreground">
+          encryption, decryption, and hash extraction
         </p>
         <p className="mb-8 text-muted-foreground">
           <a 
-            href="https://medium.com/@glizzykingdreko" 
+            href="https://medium.com/@glizzykingdreko/akamai-v3-sensor-data-deep-dive-into-encryption-decryption-and-bypass-tools-da0adad2a784" 
             className="hover:underline text-primary"
             target="_blank"
             rel="noopener noreferrer"
