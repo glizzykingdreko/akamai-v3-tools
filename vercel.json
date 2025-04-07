@@ -1,9 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "next build",
-  "installCommand": "npm install --legacy-peer-deps",
   "framework": "nextjs",
-  "outputDirectory": ".next",
+  "buildCommand": "next build",
+  "installCommand": "npm install",
   "env": {
     "NODE_ENV": "production",
     "NEXT_TELEMETRY_DISABLED": "1"
