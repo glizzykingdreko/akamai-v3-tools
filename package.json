@@ -37,6 +37,7 @@
     "@radix-ui/react-toggle": "^1.0.4",
     "@radix-ui/react-toggle-group": "^1.0.4",
     "@radix-ui/react-tooltip": "^1.0.7",
+    "akamai-v3-sensor-data-helper": "^1.0.0",
     "autoprefixer": "^10.4.17",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
@@ -57,8 +58,7 @@
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.6",
-    "zod": "^3.24.1",
-    "akamai-v3-sensor-data-helper": "^1.0.0"
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
