@@ -1,10 +1,12 @@
-# Akamai v3 Tools
+# Akamai V3 Tools
 
-A web application for working with Akamai v3 sensor data - encryption, decryption, and hash extraction. This tool helps developers and security researchers work with Akamai's bot detection system.
+[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fglizzykingdreko%2Fakamai-v3-tools)
+
+A collection of tools for working with Akamai V3 cookies and sensor data.
 
 ## Live Demo
 
-Try the application live at: [https://akamai-v3-tools.vercel.app](https://akamai-v3-tools.vercel.app)
+Access the live application at: [https://akamai-v3-tools.vercel.app](https://akamai-v3-tools.vercel.app)
 
 ## Features
 
