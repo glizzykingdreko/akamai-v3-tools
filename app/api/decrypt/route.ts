@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { decrypt } from 'akamai-v3-sensor-data-helper';
+const akamaiHelper = require('akamai-v3-sensor-data-helper');
 
 export async function POST(request: NextRequest) {
   try {
@@ -15,8 +15,7 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       );
     }
-
-    const result = await decrypt(sensor_data, script_content);
+    const result = akamaiHelper.decrypt(sensor_data, script_content);
 
     if (!result.success) {
       return NextResponse.json(

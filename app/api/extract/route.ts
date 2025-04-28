@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { extractCookieHash } from 'akamai-v3-sensor-data-helper';
+const akamaiHelper = require('akamai-v3-sensor-data-helper');
 
 export async function POST(request: NextRequest) {
   try {
@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const hash = extractCookieHash(cookie);
+    const hash = akamaiHelper.extractCookieHash(cookie);
 
     if (!hash) {
       return NextResponse.json(

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { encrypt } from 'akamai-v3-sensor-data-helper';
+const akamaiHelper = require('akamai-v3-sensor-data-helper');
 
 export async function POST(request: NextRequest) {
   try {
@@ -15,10 +15,10 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       );
     }
-
-    const result = await encrypt(
+    
+    const result = akamaiHelper.encrypt(
       JSON.parse(json_data), 
-      cookie ? cookie : "a",
+      cookie ? cookie : 8888888,
       script_content
     );
 
@@ -29,6 +29,7 @@ export async function POST(request: NextRequest) {
           message: result.message || "Encryption failed"
         },
         { status: 400 }
+
       );
     }
 
